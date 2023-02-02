@@ -1,0 +1,445 @@
+if game:GetService("Players").LocalPlayer.IsInGroup(16926416) then
+				-- BRO YOU REALLY DEOBFUSCATED THIS LOL --
+local LoL = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local title = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local CreditsFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local kino = Instance.new("TextLabel")
+local TeamNull = Instance.new("TextLabel")
+local gladiator = Instance.new("TextLabel")
+local Credits = Instance.new("TextButton")
+local NameBox = Instance.new("TextBox")
+local ValueBox = Instance.new("TextBox")
+local Buttons = Instance.new("Folder")
+local GYM = Instance.new("TextButton")
+local WS = Instance.new("TextButton")
+local JP = Instance.new("TextButton")
+local DM = Instance.new("TextButton")
+local TN = Instance.new("TextButton")
+local OD = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+
+--Properties:
+
+LoL.Name = "LoL"
+LoL.Parent = game:GetService("CoreGui")
+LoL.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = LoL
+Main.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Main.Position = UDim2.new(0.329787284, 0, 0.170682728, 0)
+Main.Size = UDim2.new(0, 305, 0, 369)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 66, 66))}
+UIGradient.Rotation = 90
+UIGradient.Parent = Main
+
+title.Name = "title"
+title.Parent = Main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(-0.00122320454, 0, -0.000571088109, 0)
+title.Size = UDim2.new(0, 305, 0, 25)
+title.Font = Enum.Font.SourceSans
+title.Text = "Nexus"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+title.TextStrokeTransparency = 0.000
+title.TextWrapped = true
+
+UICorner.Parent = Main
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = Main
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+CreditsFrame.Position = UDim2.new(-0.311475426, 0, -0.00119298697, 0)
+CreditsFrame.Size = UDim2.new(0, 94, 0, 162)
+CreditsFrame.Visible = false
+
+UICorner_2.Parent = CreditsFrame
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(93, 66, 66))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = CreditsFrame
+
+kino.Name = "kino"
+kino.Parent = CreditsFrame
+kino.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+kino.BackgroundTransparency = 1.000
+kino.Size = UDim2.new(0, 94, 0, 33)
+kino.Font = Enum.Font.SourceSans
+kino.Text = "00kino547"
+kino.TextColor3 = Color3.fromRGB(255, 255, 255)
+kino.TextScaled = true
+kino.TextSize = 14.000
+kino.TextWrapped = true
+
+TeamNull.Name = "TeamNull"
+TeamNull.Parent = CreditsFrame
+TeamNull.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeamNull.BackgroundTransparency = 1.000
+TeamNull.Position = UDim2.new(-0.0106382975, 0, 0.203703701, 0)
+TeamNull.Size = UDim2.new(0, 94, 0, 33)
+TeamNull.Font = Enum.Font.SourceSans
+TeamNull.Text = "Team_Null"
+TeamNull.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeamNull.TextScaled = true
+TeamNull.TextSize = 14.000
+TeamNull.TextWrapped = true
+
+gladiator.Name = "gladiator"
+gladiator.Parent = CreditsFrame
+gladiator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gladiator.BackgroundTransparency = 1.000
+gladiator.Position = UDim2.new(0, 0, 0.395061731, 0)
+gladiator.Size = UDim2.new(0, 94, 0, 33)
+gladiator.Font = Enum.Font.SourceSans
+gladiator.Text = "Gladiator"
+gladiator.TextColor3 = Color3.fromRGB(255, 255, 255)
+gladiator.TextScaled = true
+gladiator.TextSize = 14.000
+gladiator.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0, 0, -0.000184088945, 0)
+Credits.Size = UDim2.new(0, 25, 0, 25)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "C"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+NameBox.Name = "NameBox"
+NameBox.Parent = Main
+NameBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NameBox.BackgroundTransparency = 1.000
+NameBox.Position = UDim2.new(0, 0, 0.910569131, 0)
+NameBox.Size = UDim2.new(0, 152, 0, 33)
+NameBox.Font = Enum.Font.SourceSans
+NameBox.PlaceholderText = "Put Your Victim's username here"
+NameBox.Text = ""
+NameBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameBox.TextScaled = true
+NameBox.TextSize = 14.000
+NameBox.TextWrapped = true
+
+ValueBox.Name = "ValueBox"
+ValueBox.Parent = Main
+ValueBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ValueBox.BackgroundTransparency = 1.000
+ValueBox.Position = UDim2.new(0.501639366, 0, 0.910569131, 0)
+ValueBox.Size = UDim2.new(0, 152, 0, 33)
+ValueBox.Font = Enum.Font.SourceSans
+ValueBox.PlaceholderText = "Put Your wanted number here"
+ValueBox.Text = ""
+ValueBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+ValueBox.TextScaled = true
+ValueBox.TextSize = 14.000
+ValueBox.TextWrapped = true
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Main
+
+GYM.Name = "GYM"
+GYM.Parent = Buttons
+GYM.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+GYM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GYM.BorderSizePixel = 0
+GYM.Position = UDim2.new(0, 0, 0.0861497819, 0)
+GYM.Size = UDim2.new(0, 90, 0, 49)
+GYM.Font = Enum.Font.SourceSans
+GYM.Text = "Give Cash"
+GYM.TextColor3 = Color3.fromRGB(255, 255, 255)
+GYM.TextScaled = true
+GYM.TextSize = 14.000
+GYM.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+GYM.TextStrokeTransparency = 0.000
+GYM.TextWrapped = true
+
+WS.Name = "WS"
+WS.Parent = Buttons
+WS.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+WS.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WS.BorderSizePixel = 0
+WS.Position = UDim2.new(0.704918027, 0, 0.0861497819, 0)
+WS.Size = UDim2.new(0, 90, 0, 49)
+WS.Font = Enum.Font.SourceSans
+WS.Text = "Walk Speed"
+WS.TextColor3 = Color3.fromRGB(255, 255, 255)
+WS.TextScaled = true
+WS.TextSize = 14.000
+WS.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+WS.TextStrokeTransparency = 0.000
+WS.TextWrapped = true
+
+JP.Name = "JP"
+JP.Parent = Buttons
+JP.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+JP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JP.BorderSizePixel = 0
+JP.Position = UDim2.new(0.350819677, 0, 0.0861497968, 0)
+JP.Size = UDim2.new(0, 90, 0, 49)
+JP.Font = Enum.Font.SourceSans
+JP.Text = "Jump Power"
+JP.TextColor3 = Color3.fromRGB(255, 255, 255)
+JP.TextScaled = true
+JP.TextSize = 14.000
+JP.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+JP.TextStrokeTransparency = 0.000
+JP.TextWrapped = true
+
+DM.Name = "DM"
+DM.Parent = Buttons
+DM.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+DM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DM.BorderSizePixel = 0
+DM.Position = UDim2.new(0, 0, 0.218941107, 0)
+DM.Size = UDim2.new(0, 90, 0, 49)
+DM.Font = Enum.Font.SourceSans
+DM.Text = "Destroy Map"
+DM.TextColor3 = Color3.fromRGB(255, 255, 255)
+DM.TextScaled = true
+DM.TextSize = 14.000
+DM.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+DM.TextStrokeTransparency = 0.000
+DM.TextWrapped = true
+
+TN.Name = "TN"
+TN.Parent = Buttons
+TN.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+TN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TN.BorderSizePixel = 0
+TN.Position = UDim2.new(0.704918027, 0, 0.218941107, 0)
+TN.Size = UDim2.new(0, 90, 0, 49)
+TN.Font = Enum.Font.SourceSans
+TN.Text = "Team Neutral"
+TN.TextColor3 = Color3.fromRGB(255, 255, 255)
+TN.TextScaled = true
+TN.TextSize = 14.000
+TN.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+TN.TextStrokeTransparency = 0.000
+TN.TextWrapped = true
+
+OD.Name = "OD"
+OD.Parent = Buttons
+OD.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+OD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OD.BorderSizePixel = 0
+OD.Position = UDim2.new(0.350819677, 0, 0.218941122, 0)
+OD.Size = UDim2.new(0, 90, 0, 49)
+OD.Font = Enum.Font.SourceSans
+OD.Text = "Open Door"
+OD.TextColor3 = Color3.fromRGB(255, 255, 255)
+OD.TextScaled = true
+OD.TextSize = 14.000
+OD.TextStrokeColor3 = Color3.fromRGB(90, 90, 90)
+OD.TextStrokeTransparency = 0.000
+OD.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.914754093, 0, -0.000184088945, 0)
+Close.Size = UDim2.new(0, 25, 0, 25)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+-- Scripts:
+
+local function QGEBYKB_fake_script() -- kino.Rainbower 
+	local script = Instance.new('LocalScript', kino)
+
+	while wait() do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(QGEBYKB_fake_script)()
+local function BKTHX_fake_script() -- TeamNull.Rainbower 
+	local script = Instance.new('LocalScript', TeamNull)
+
+	while wait() do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(BKTHX_fake_script)()
+local function TNBAJ_fake_script() -- gladiator.Rainbower 
+	local script = Instance.new('LocalScript', gladiator)
+
+	while wait() do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(TNBAJ_fake_script)()
+local function OZZOYN_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		local frame = script.Parent.Parent.CreditsFrame
+		if frame.Visible == false then
+			frame.Visible = true
+		else
+			frame.Visible = false
+		end
+	end)
+end
+coroutine.wrap(OZZOYN_fake_script)()
+local function YRVU_fake_script() -- Buttons.LocalScript 
+	local script = Instance.new('LocalScript', Buttons)
+
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local MoneyEvent = ReplicatedStorage.MoneyRequest
+	local namebox = script.Parent.Parent.NameBox
+	local valuebox = script.Parent.Parent.ValueBox
+	local Buttons = script.Parent
+	local GYM = Buttons.GYM
+	local WS = Buttons.WS
+	local JP = Buttons.JP
+	local DM = Buttons.DM
+	local TN = Buttons.TN
+	local OD = Buttons.OD
+	--\\ Button Scripts //--
+	GYM.MouseButton1Down:Connect(function()
+		local args ={
+			[1] = false,
+			[2] = valuebox.Text,
+			[3] = "Cash",
+			[4] = game:GetService("Players")[namebox.Text]
+		}
+	
+		MoneyEvent:FireServer(unpack(args))
+	end)
+	WS.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character:WaitForChild("Humanoid").WalkSpeed = valuebox.Text
+	end)
+	JP.MouseButton1Down:Connect(function()
+		game.Players.LocalPlayer.Character:WaitForChild("Humanoid").JumpPower = valuebox.Text
+	end)
+	DM.MouseButton1Down:Connect(function()
+		local no = false
+		if no == false then
+			for _, GameFucked in pairs(game:GetDescendants()) do
+				game.ReplicatedStorage.DoorOpener:FireServer(GameFucked)
+				no = true
+			end
+		else
+			no = false
+			for _, GameFucked in pairs(game:GetDescendants()) do
+				game.ReplicatedStorage.DoorOpener:FireServer(GameFucked)
+			end
+		end
+	end)
+	OD.MouseButton1Down:Connect(function()
+		local args = {
+			[1] = workspace.RoomDoors[valuebox.Text]
+		}
+	
+		game:GetService("ReplicatedStorage").DoorOpener:FireServer(unpack(args))
+	end)
+	TN.MouseButton1Down:Connect(function()
+		local args = {
+			[1] = "Medium stone grey"
+		}
+		game:GetService("ReplicatedStorage").ChangeTeam:InvokeServer(unpack(args))
+	end)
+	
+end
+coroutine.wrap(YRVU_fake_script)()
+local function CTQGY_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(CTQGY_fake_script)()
+end
