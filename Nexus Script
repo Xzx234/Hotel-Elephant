@@ -1,4 +1,8 @@
 if game:GetService("Players").LocalPlayer:IsInGroup(16926416) then
+local Message = Instance.new("Hint", game:GetService("Workspace"))
+Message.Text = "Your in the group thanks for joinning and using script!"
+wait(2)
+Message:Destroy()
 				-- BRO YOU REALLY DEOBFUSCATED THIS LOL --
 local LoL = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
