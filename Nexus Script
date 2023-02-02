@@ -447,6 +447,6 @@ local function CTQGY_fake_script() -- Close.LocalScript
 end
 coroutine.wrap(CTQGY_fake_script)()
 else
-local TextHint = Instance.new("Hint", game:GetService(Workspace))
+local TextHint = Instance.new("Hint", game:GetService("Workspace"))
 TextHint.Text = "You must Join CK4 Team Group or T4N Team Group to execute this!"
 end
