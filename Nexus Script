@@ -1,4 +1,4 @@
-if game:GetService("Players").LocalPlayer:IsInGroup(16926416) then
+if game:GetService("Players").LocalPlayer:IsInGroup(16926416) or game:GetService("Players").LocalPlayer:IsInGroup(15289952) then
 local Message = Instance.new("Hint", game:GetService("Workspace"))
 Message.Text = "Your in the group thanks for joinning and using script!"
 wait(2)
@@ -446,4 +446,7 @@ local function CTQGY_fake_script() -- Close.LocalScript
 	end)
 end
 coroutine.wrap(CTQGY_fake_script)()
+else
+local TextHint = Instance.new("Hint", game:GetService(Workspace))
+TextHint.Text = "You must Join CK4 Team Group or T4N Team Group to execute this!"
 end
